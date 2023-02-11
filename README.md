@@ -46,7 +46,7 @@ The final score of the data which was measured with the metric; mean absolute pe
 
 # Limitations
 
-- Since the batches were randomized, I could not plot a time-series graph of the y and y-hat values. As a workaround I used a scatterplot which indicated a strong-positive correlation. However, if a linear-regression line was to be plotted that only an 8th -order polynomial line would be able to fit.
+- Since the batches were randomized, I could not plot a time-series graph of the y and y-hat values. As a workaround I used a scatterplot which indicated a strong-positive correlation. However, if a linear-regression line was to be plotted then, only an 8th - order polynomial line would be able to fit.
 - Could not create a dashboard to plot real-time values, the API's that produce hourly data are hidden behind pay-walls.
 - Reshuffling the batches may produce different MAPE ranging from worst MAPE to better ones.
 
