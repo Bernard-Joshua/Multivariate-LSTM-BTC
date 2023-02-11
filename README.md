@@ -16,7 +16,7 @@ This project is an optimized replica of my Final-Year project. The Final Year Pr
 | Optimization | Stochastic Gradient Descent | PCA, Drop-outs, Stochastic Gradient Descent, Batch-Shuffling, MI scores |
 | Data-Split | 70% - Train, 30% - Test | 70% - Train, 10% Validation, 20% - Test. |
 | Prediction Window | Previous 60 hrs batch used to predict 61st hour. | Previous 24 hrs used to predict 25th hour. |
-| Final Model Accuracy ( MAPE ) | +/- 24% | +/- 6.89 % |
+| Final Model Accuracy ( MAPE ) | +/- 24% | +/- 5.67 % |
 
 
 # Data and Features
@@ -25,8 +25,6 @@ There were no null values in the data, however there were values in the 0 range.
 
 
 # Optimizations
-
-#
 
 Principal Component Analysis
 
@@ -43,7 +41,7 @@ Using the Scikit-Learn data splitting function the data was split at random in b
 
 # Final Score
 
-The final score of the data which was measured with the metric; mean absolute percentage error indicated that the error rate was in the range of +/- 6.89 % which is pretty good given that the model was trained using only 32k+ records from 2018 -2022.
+The final score of the data which was measured with the metric; mean absolute percentage error indicated that the error rate was in the range of +/- 5.67 % which is pretty good given that the model was trained using only 32k+ records from 2018 -2022.
 
 
 # Limitations
@@ -56,4 +54,5 @@ The final score of the data which was measured with the metric; mean absolute pe
 # Further Notes
 
 - Graphs and Tables are available in the .ipynb file.
-- Original Documents and their revisions for the FYP is available in the folder:
+- Original Documents and their revisions for the FYP is available in the folders: Original & Revised Documents
+- The revision of the design for the original project was done due to the cost involved in development on the Cloud. The Final Year Project did not give us a budget to work with.
